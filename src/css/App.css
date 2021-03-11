@@ -1,0 +1,21 @@
+/* .container{
+    width: 45%;
+} */
+
+.btn{
+    background: #00ced1;
+    color: white;
+}
+
+.logoutBtn{
+    background: rgb(252, 114, 114);
+    color: white;
+}
+
+.bg-form{
+  background-color:  #fff9df;
+}
+
+.section{
+    min-height: 440px;
+}

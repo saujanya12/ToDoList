@@ -1,0 +1,13 @@
+
+.AppTitle{
+    /* text-align:left;
+    float:left; */
+    color: lightcyan;
+    font-family:  'Changa', sans-serif;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
