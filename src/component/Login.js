@@ -64,7 +64,7 @@ export default function Login(props) {
                                         <label htmlFor="username">Username</label>
                                         <input type="text"
                                             className="form-control"
-                                            placeholder="Your Name"
+                                            placeholder="Your Name (admin)"
                                             id="username"
                                             value={userName}
                                             onChange={(e) => { setUserName(e.target.value); }} />
@@ -73,7 +73,7 @@ export default function Login(props) {
                                         <label htmlFor="password">Password</label>
                                         <input type="password"
                                             className="form-control"
-                                            placeholder="Your Password"
+                                            placeholder="Your Password (admin)"
                                             id="password"
                                             value={password}
                                             onChange={(e) => { setPassword(e.target.value); }} />

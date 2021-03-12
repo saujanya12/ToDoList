@@ -184,7 +184,7 @@ export default class App extends React.Component {
                   onDelete={this.deleteTask}
                   toggleReminder={this.toggleReminder}
                 />
-                : <div className="text-center">No tasks to show...</div>
+                : <div className="text-center ">No tasks to show...</div>
               )
             }
             <Footer />
