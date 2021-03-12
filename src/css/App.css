@@ -17,5 +17,6 @@
 }
 
 .section{
-    min-height: 440px;
+    min-height: 100%;
+    
 }

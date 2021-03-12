@@ -171,7 +171,7 @@ export default class App extends React.Component {
       <div className="container " >
         <div className="row">
           <div className="col-xl-3 col-md-3"></div>
-          <div className="col-xl-6 col-md-6 col-sm-12" style={{ backgroundColor: '#ffda0003' }}>
+          <div className="section col-xl-6 col-md-6 col-sm-12" style={{ backgroundColor: '#ffda0003' }}>
             <Header title={'TODO LIST'}
               showBtn={this.state.showAddTask}
               toggleAddTask={this.toggleAddTask} />
@@ -184,7 +184,7 @@ export default class App extends React.Component {
                   onDelete={this.deleteTask}
                   toggleReminder={this.toggleReminder}
                 />
-                : <div className="text-center section">No tasks to show...</div>
+                : <div className="text-center">No tasks to show...</div>
               )
             }
             <Footer />
